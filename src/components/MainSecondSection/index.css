@@ -1,0 +1,30 @@
+#flex-div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-left: 30px;
+}
+#second-section div div:first-of-type {
+    width: 450px;
+    font-size: 20px;
+    display: inline-block;
+}
+#second-section div p {
+    text-align: justify;
+}
+.group {
+    text-align: left;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 60px;
+}
+.group img {
+    width: 50%;
+    height: 50%;
+}
+.group p {
+    text-transform: uppercase;
+    font-weight: bold;
+}

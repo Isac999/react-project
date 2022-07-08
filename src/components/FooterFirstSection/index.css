@@ -1,0 +1,39 @@
+#footerFirstSection {
+    width: 45%;
+    height: 100%;
+}
+#footerFirstSection div:first-of-type {
+    background-color: rgba(222, 25, 58, 0.901);
+    width: 450px;
+    height: 300px;
+    margin-left: 50px;
+    border-radius: 4px;
+} 
+#footerFirstSection div:last-of-type {
+    width: 400px;
+    height: 300px;
+    text-align: justify;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+#footerFirstSection div img {
+    width: 450px;
+    height: 300px;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 4px;
+}
+#footerFirstSection div button {
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(222, 25, 58, 0.901);
+    border: transparent;
+    cursor: pointer;
+}
+#footerFirstSection div p {
+    font-size: 18px;
+}
